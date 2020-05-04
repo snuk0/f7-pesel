@@ -1,0 +1,29 @@
+<template>
+    <div class="page" data-name="sprawdzpesel">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#" class="link back">
+              <i class="icon icon-back"></i>
+              <span class="if-not-md">Back</span>
+            </a>
+          </div>
+          <div class="title">PESEL</div>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="block-title">Sprawdzanie numeru PESEL</div>
+        <div class="block">
+            <h1>Formularz</h1>
+            PESEL: <input type="text" id="pesel" maxlength="11"><br>
+            <button id="sprawdz">Sprawdź</button><br>
+            <div id="wynik"></div>
+            <div id="wynik2"></div>
+        </div>
+      </div>
+    </div>
+    </template>
+    <script>
+    export default {};
+    </script>
